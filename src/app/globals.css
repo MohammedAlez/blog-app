@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.quill div.ql-blank::before{
+    color:rgb(75 85 99 );
+    font-size:20px;
+
+}
+.quill p{
+    font-size:20px;
+}
+
+*{
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
